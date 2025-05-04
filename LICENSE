@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 MIT License
 
 Copyright (c) 2020 Fleetboard
@@ -21,6 +22,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 =======
+=======
+>>>>>>> 23faa124d95906be16b4165268cc61381d955fe1
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -695,4 +698,7 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+<<<<<<< HEAD
 >>>>>>> bcb96fb9bd1c4d7386cea35742de2d0276294f87
+=======
+>>>>>>> 23faa124d95906be16b4165268cc61381d955fe1

@@ -1,31 +1,21 @@
-# Core dependencies
-Brotli==1.0.7
+dash==2.15.0
+dash-bootstrap-components==1.5.0
+plotly>=5.15.0
 Flask==1.1.2
 Flask-Compress==1.5.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
-SQLAlchemy==1.3.18
 Werkzeug==1.0.1
 click==7.1.2
 itsdangerous==1.1.0
-
-# Dash and visualization
-dash==2.15.0
-dash-bootstrap-components==1.5.0
-plotly==4.9.0
-
-# Data processing
+SQLAlchemy==1.3.18
 numpy==1.23.5
 pandas==1.5.3
-scipy  # You can specify a version if needed, e.g., scipy==1.10.0
-
-# Plotting support
+scipy
+matplotlib~=3.3.0
 cycler==0.10.0
 kiwisolver==1.2.0
-matplotlib~=3.3.0
 pyparsing==2.4.7
-
-# Database and utils
 psycopg2-binary==2.9.9
 future==0.18.2
 gunicorn==20.0.4

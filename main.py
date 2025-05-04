@@ -63,7 +63,7 @@ app = dash.Dash(__name__,
                     {"name": "viewport", "content": "width=device-width, initial-scale=1"}
                 ]
                 )
-
+server = app.server
 # colors theme
 colors = ['rgb(66,234,221)', 'rgb(7,130,130)', 'rgb(171,209,201)', 'rgb(151,179,208)', 'rgb(118,82,139)',
           'rgb(173,239,209)', 'rgb(96,96,96)', 'rgb(214,65,97)']
@@ -475,11 +475,8 @@ def create_heat_map(selected_licence_plate):
 # server
 import os
 
-if __name__ == '__main__':
-    app.run(
-        debug=True,
-        host='0.0.0.0',
-        port=int(os.environ.get('PORT', 8055))  # Important for Render
-    )
+if __name__ == "__main__":
+    app.run_server(debug=True)
+
 
 

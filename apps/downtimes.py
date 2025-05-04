@@ -1,11 +1,11 @@
-from dash import dcc, html, dash_table
+from dash import html, dcc
+from dash import dash_table
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 import statistics
 from plotly.subplots import make_subplots
-
 from database_connection import connect, return_engine
 
 #connect to database and add files to

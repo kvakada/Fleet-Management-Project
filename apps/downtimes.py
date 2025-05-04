@@ -1,13 +1,14 @@
-import dash_core_components as dcc
-import dash_html_components as html
-import dash_table
-import dash_bootstrap_components as dbc
+
 import pandas as pd
-import plotly.graph_objects as go
-import numpy as np
 import statistics
 from plotly.subplots import make_subplots
 from database_connection import connect, return_engine
+from dash import dcc, html, dash_table
+import dash
+import plotly.graph_objects as go
+import numpy as np
+from database_connection import connect
+import dash_bootstrap_components as dbc
 
 #connect to database and add files to
 #conn = connect()

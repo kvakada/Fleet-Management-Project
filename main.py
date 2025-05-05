@@ -473,10 +473,11 @@ def create_heat_map(selected_licence_plate):
     return fig
 
 # server
-import os
-
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    import os
+    if os.environ.get("RENDER") != "true":  # only runs locally
+        app.run_server(debug=True)
+
 
 
 

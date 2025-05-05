@@ -22,6 +22,8 @@ from apps.home import *
 df_vehicle_data = pd.read_csv('vehicle_data.csv')
 fleet_data = pd.read_csv('fleet_data.csv')
 dfnames = pd.read_csv('names.csv')
+df_driving_data = pd.read_csv('driving_data.csv')
+
 
 # Rounded fleet data
 fleet_data_rounded = fleet_data.round(decimals=2)

@@ -471,13 +471,3 @@ def create_heat_map(selected_licence_plate):
 
     fig = go.Figure(data=data, layout=layout)
     return fig
-
-# server
-if __name__ == "__main__":
-    import os
-    if os.environ.get("RENDER") != "true":  # only runs locally
-        app.run_server(debug=True)
-
-
-
-
